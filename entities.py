@@ -14,12 +14,12 @@ def init_assets():
             "speed_range": (2, 4),
         },
         "medium": {
-            "image": load_and_scale_fish("fish_medium.png", scale_factor=1.8),
+            "image": load_and_scale_fish("fish_medium.png", scale_factor=1.6),
             "score": 25,
             "speed_range": (3, 5),
         },
         "rare": {
-            "image": load_and_scale_fish("fish_rare.png", scale_factor=1.7),
+            "image": load_and_scale_fish("fish_rare.png", scale_factor=1.4),
             "score": 60,
             "speed_range": (5, 7),
         },
